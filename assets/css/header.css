@@ -1,0 +1,27 @@
+.menu{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: black;
+}
+.menu nav ul {
+    display: flex;
+    color: white;
+}
+.menu nav ul li {
+    display: none;
+    font-size: 1rem;    
+}
+
+.banner .sliderTotal{
+    display: flex;
+    align-items: flex-end;
+    width: 300%;
+    
+}
+.sliderTotal .slideImg picture img{
+    width: 100%;
+}
+.sliderTotal{
+    overflow: hidden;
+}
