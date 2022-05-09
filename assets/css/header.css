@@ -15,13 +15,14 @@
 
 .banner .sliderTotal{
     display: flex;
-    align-items: flex-end;
-    width: 300%;
-    
+    align-items: flex-end;    
+    height: 100%;
+    transition: all ease .4s;
 }
-.sliderTotal .slideImg picture img{
-    width: 100%;
-}
-.sliderTotal{
+/* overflow hidden para ocultar os outros banners que estão passando da área*/
+.banner{
     overflow: hidden;
+}
+.sliderTotal .slide--Img picture img{
+    width: 100%;
 }
