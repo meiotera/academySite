@@ -1,8 +1,8 @@
 .menu{
     display: flex;
     align-items: center;
-    height: 50px;
-    background-color: black;
+    height: 70px;
+    background-color: red;
 }
 .menu nav ul {
     display: flex;
@@ -16,7 +16,7 @@
 .banner .sliderTotal{
     display: flex;
     align-items: flex-end;    
-    height: 100%;
+    
     transition: all ease .4s;
 }
 /* overflow hidden para ocultar os outros banners que estão passando da área*/

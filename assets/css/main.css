@@ -1,4 +1,38 @@
 .infra{
-    background-color: red;
     
+    height: 50vh;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.432), rgba(228, 33, 33, 0.712)), url(../img/equipamentos.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.infraTitle{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.plans{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.planBoard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+
+    border: 1px solid #ccc;
+    margin: 1.5rem;
+    border-radius: 10px;
+
+    max-width: 12rem;
+    height: 15rem;
+}
+.titlePlan{
+    text-transform: uppercase;
+    font-size: 1.6rem;
 }
