@@ -58,8 +58,8 @@
     margin: 1.5rem;
     border-radius: 10px;
 
-    width: 12rem;
-    height: 15rem;
+    width: 14rem;
+    height: 18rem;
 }
 .planBoard .planValue{
     font-size: 3rem;
@@ -71,8 +71,8 @@
     font-size: 1.6rem;
 }
 .ouro{
-    width: 15rem;
-    height: 20rem;
+    width: 18rem;
+    height: 23rem;
     background-image: linear-gradient(to bottom, rgb(255, 0, 0), rgb(109, 0, 0));
     color: white;
     

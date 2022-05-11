@@ -1,0 +1,30 @@
+footer{
+    background-color: black;
+    height: 100vh;
+    color: white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.location address {
+    line-height: 2;
+    padding-bottom: 2rem;
+    
+}
+footer .social{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.formContact{
+    width: 100%;
+}
+
+footer .formContact form input, textarea{
+    width: 100%;
+    padding: .5rem;
+    margin-bottom: 1rem;
+}
+.formContact p{
+    margin-bottom: 1rem;
+}
