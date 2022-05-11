@@ -11,7 +11,9 @@ function passSlider() {
     }
 
     let newSlide = (currentSlid * document.querySelector('.slide--Img').clientWidth);
+    console.log(newSlide)
     document.querySelector('.sliderTotal').style.marginLeft = `-${newSlide}px`;
     
 }
+passSlider();
 setInterval(passSlider, 3000);

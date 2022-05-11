@@ -16,7 +16,7 @@
 .banner .sliderTotal{
     display: flex;
     align-items: flex-end;    
-    
+    height: 100%;
     transition: all ease .4s;
 }
 /* overflow hidden para ocultar os outros banners que estão passando da área*/
@@ -26,3 +26,4 @@
 .sliderTotal .slide--Img picture img{
     width: 100%;
 }
+
