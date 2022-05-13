@@ -23,7 +23,17 @@
 .banner{
     overflow: hidden;
 }
-.sliderTotal .slide--Img picture img{
-    width: 100%;
+.sliderTotal .slide--Img img{
+    width: 100%;    
 }
-
+.slide--Img{
+    position: relative;
+}
+.descSlider{
+    position: absolute;
+    z-index: 99;
+    color: white;
+    top: 50%;
+    padding: .8rem;
+    font-size: 1.2rem;    
+}
